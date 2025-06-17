@@ -72,8 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error(error);
     }
   });
-
-  // Login user
+  
   formLogin.addEventListener('submit', async (e) => {
     e.preventDefault();
     loginMessage.textContent = '';
