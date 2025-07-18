@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projeto Final</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container" role="main">
+    <header class="header">
+      <h1>Projeto Final</h1>
+      <nav class="nav">
+        <button id="showLogin" aria-controls="login" aria-expanded="true">Login</button>
+        <button id="showRegister" aria-controls="register" aria-expanded="false">Cadastro</button>
+      </nav>
+    </header>
+
+    <section id="login" class="form-section" aria-label="Área de login">
+      <form id="formLogin" novalidate>
+        <h2>Login</h2>
+        <label for="loginEmail">E-mail</label>
+        <input id="loginEmail" name="email" type="email" autocomplete="username" required />
+        <label for="loginSenha">Senha</label>
+        <input id="loginSenha" name="senha" type="password" autocomplete="current-password" required />
+        <button type="submit">Entrar</button>
+        <p id="loginMessage" class="message" role="alert" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section id="register" class="form-section hidden" aria-label="Área de cadastro">
+      <form id="formRegister" novalidate>
+        <h2>Cadastro</h2>
+        <label for="registerNome">Nome</label>
+        <input id="registerNome" name="nome" type="text" required />
+        <label for="registerEmail">E-mail</label>
+        <input id="registerEmail" name="email" type="email" autocomplete="email" required />
+        <label for="registerSenha">Senha</label>
+        <input id="registerSenha" name="senha" type="password" autocomplete="new-password" required />
+        <label for="registerTelefone">Telefone</label>
+        <input id="registerTelefone" name="telefone" type="tel" required />
+        <button type="submit">Cadastrar</button>
+        <p id="registerMessage" class="message" role="alert" aria-live="polite"></p>
+      </form>
+    </section>
+  </div>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
