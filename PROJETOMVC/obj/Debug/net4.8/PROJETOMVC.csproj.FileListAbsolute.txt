@@ -1,0 +1,8 @@
+C:\Users\user\source\repos\PROJETOMVC\obj\Debug\net4.8\PROJETOMVC.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\PROJETOMVC\obj\Debug\net4.8\PROJETOMVC.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\PROJETOMVC\obj\Debug\net4.8\PROJETOMVC.exe.config
+C:\Users\user\source\repos\PROJETOMVC\obj\Debug\net4.8\PROJETOMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\PROJETOMVC\obj\Debug\net4.8\PROJETOMVC.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\PROJETOMVC\obj\Debug\net4.8\PROJETOMVC.AssemblyInfo.cs
+C:\Users\user\source\repos\PROJETOMVC\obj\Debug\net4.8\PROJETOMVC.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\PROJETOMVC\obj\Debug\net4.8\PROJETOMVC.sourcelink.json
